@@ -252,7 +252,7 @@ iprogram('Adobe CS6','50');
 
       <footer style="padding-top: 20px;">
 	<hr />
-      <p style="text-align: center">&copy; <a href="#">Philip I Thomas</a> 2012</p>
+      <p style="text-align: center">&copy; Andrew Hess 2012</p>
       </footer>      
 
     </div> <!-- /container -->
