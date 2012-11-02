@@ -1,8 +1,9 @@
 I forked this repo from [Philip Thomas](https://github.com/philipithomas), a friend of mine at Washington University in St. Louis.
 
-#My Modifications
+[My CV](cv.andrewhess.net)
 
-* will update as I do any
+#My Modifications
+* if I do any, they will go here
 
 
 #About
