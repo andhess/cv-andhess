@@ -163,8 +163,19 @@ position("Washington University in Saint Louis","Saint Louis, MO","Bachelor of S
 	<li>Help coordinate meetups that feature a small, informal discussion with people from related industry.</li>
 	</ul>', "http://wute.org");
 
+
+	position("Pontiac Yacht Club","Keego Harbor, MI","Junior Sailing Head Coach","6/08-08/11",'
+	<ul>
+	<li>Managed and coached a team of 25 junior sailors, ages 8 to 18.</li>
+	<li>Travelled weekly to local and regional events over a 12 week season.</li>
+	</ul>', "http://pyc54.org/");
+
+           ?>
+
            ?>
     
+
+
     
       </section>
       
