@@ -1,6 +1,6 @@
 I forked this repo from [Philip Thomas](https://github.com/philipithomas), a friend of mine at Washington University in St. Louis.
 
-[My CV](cv.andrewhess.net)
+[My CV](http://cv.andrewhess.net)
 
 #My Modifications
 * if I do any, they will go here
