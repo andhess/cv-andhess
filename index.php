@@ -83,7 +83,7 @@
 	<span class="" style="text-align: center;"> 
 		<address>
 		<a href="http://www.andrewhess.net" target="_blank">www.andrewhess.net</a><br />
-		<a href="mailto:#">andrew@andrewhess.net</a><br />
+		<a href="mailto:andrew@andrewhess.net">andrew@andrewhess.net</a><br />
 		<a>+1 (248) 224-0335</a>
 		</address>
 	</span>
@@ -170,7 +170,6 @@ position("Washington University in Saint Louis","Saint Louis, MO","Bachelor of S
 	<li>Travelled weekly to local and regional events over a 12 week season.</li>
 	</ul>', "http://pyc54.org/");
 
-           ?>
 
            ?>
     
