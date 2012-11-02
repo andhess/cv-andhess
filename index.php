@@ -9,13 +9,13 @@
     <meta name="author" content="Andrew Hess">
 
     <!-- Le styles -->
-    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
     <style>
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       }
     </style>
-    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -23,7 +23,7 @@
     <![endif]-->
 
     <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
 	<script>
 
 		/** ADD MY GOOGLE ANALYTICS SHIT HERE */
@@ -149,7 +149,7 @@ position("Washington University in Saint Louis","Saint Louis, MO","Bachelor of S
 	</ul>',"http://textreject.com/");
 	
 	
-	position("CapScan","Saint Louis, MO","Analyst","12/11-4/12",'
+	position("CapScan","Saint Louis, MO","","12/11-4/12",'
 	<ul>
 	<li>Developed an Android application to collect coupon codes with pictures using OCR (optical character recognition) technology.</li>
 	<li>Developed image processing algorithms to help <a href="http://code.google.com/p/tesseract-ocr/" target="_BLANK">Tesseract</a> process the text in images.</li>
