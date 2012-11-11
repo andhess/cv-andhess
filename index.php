@@ -219,7 +219,7 @@ iprogram('MySQL', '60');
 iprogram('Java','60');
 iprogram('Objective-C','20');
 iprogram('Unix Systems','70');
-iprogram('Algorithms and Data Structures', '65');
+iprogram('Algorithms & Data Structures', '65');
 iprogram('Git','60');
 iprogram('CSS','40');
 iprogram('UX Design','70');
