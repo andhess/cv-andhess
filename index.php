@@ -101,7 +101,7 @@
           </div> 
           <div class="row">
       
-      <div class="span12">Andrew Hess is a 3rd year B.S Candidate at Washington University in St. Louis studying systems engineering and computer science.  Currently seeking a cooperative educational experience that focuses on mathematics and software.
+      <div class="span12">Andrew Hess is a 3rd year B.S Candidate at Washington University in St. Louis studying systems engineering and computer science.  He is currently seeking a cooperative educational experience that focuses on mathematics and software.
       </div> 
 
       </section>
@@ -145,22 +145,24 @@ position("Washington University in Saint Louis","Saint Louis, MO","Bachelor of S
 	
 	position("TextReject.com","Saint Louis, MO","Co-Founder","10/12-Present",'
 	<ul>
-	<li>Designed, built, and launced a humorous php application that connects with Twilio for an automated text messaging service.</li>
+	<li>Designed, built, and launched a humorous php application that connects with Twilio for an automated text messaging service.</li>
 	</ul>',"http://textreject.com/");
 	
 	
-	position("CapScan","Saint Louis, MO","","12/11-4/12",'
+	position("CapScan","Saint Louis, MO","Co-Founder","12/11-4/12",'
 	<ul>
-	<li>Developed an Android application to collect coupon codes with pictures using OCR (optical character recognition) technology.</li>
-	<li>Developed image processing algorithms to help <a href="http://code.google.com/p/tesseract-ocr/" target="_BLANK">Tesseract</a> process the text in images.</li>
-	<li>Project was cancelled and never released due to the difficulty involved with developing accurate and reliable OCR.</li>
+	<li>Developed an Android application to collect coupon codes from pictures using <abbr title="Optical Character Recognition">OCR</abbr> technology.</li>
+	<li>Developed image processing algorithms to make it possible for <a href="http://code.google.com/p/tesseract-ocr/" target="_BLANK">Tesseract</a> to process the text in images.</li>
+	<li>Project was discontinued and never released due to the difficulty involved with developing accurate and reliable OCR.</li>
 	</ul>',"");
 	
 	
 	position("Washington University Tech Entrepreneurs (wute)","Saint Louis, MO","Co-President","5/11-Present",'
 	<ul>
 	<li>wute is a community of students interested in technology and entrepreneurship.</li>
-	<li>Help coordinate meetups that feature a small, informal discussion with people from related industry.</li>
+	<li>Help coordinate meetups that feature a small, informal discussion with people from the tech industry.</li>
+	<li>Past speakers include <a href="http://en.wikipedia.org/wiki/Alexis_Ohanian" target="_BLANK">Alexis Ohanian</a>, <a href="https://twitter.com/tristan" target="_BLANK">Tristan O\'Tierney</a>, <a href="http://www.samwen.com/" target="_BLANK">Sam Wen</a></li>
+	<li>Currently working with Washington University\'s <a href="http://engineering.wustl.edu/disc-comp.aspx" target="_BLANK">Discovery Competition</a> to create the first ever student-run incubator.</li>
 	</ul>', "http://wute.org");
 
 
@@ -178,28 +180,47 @@ position("Washington University in Saint Louis","Saint Louis, MO","Bachelor of S
     
       </section>
       
-      <section id="technical">
+<section id="technical">
             <div class="row">
 
       <div class="page-header">
-      <h2>Technical</h2>
+      <h2>Personal Analysis of Technical Skills</h2>
       </div>
+    </div> <!-- end row -->
+<div class="row">
+	<h3>Systems Engineering</h3>
+	
+	<div class="span8">
+<?php
+iprogram('Control Engineering','75');
+iprogram('Signal Processing', '60');
+iprogram('Operations Research', '80');
+iprogram('System Design', '60');
+iprogram('Matlab','65');
+?>
+
+
+</div>
+</div>
+      
+      
+            <div class="row">
+            	<h3>Computer Science</h3>
+      
     </div> <!-- end row -->
 <div class="row">
 
 	
 	<div class="span8">
 <?php
-iprogram('Javascript','75');
+iprogram('JavaScript','75');
 iprogram('PHP','70');
 iprogram('Java','60');
 iprogram('Objective-C','20');
-iprogram('Matlab','65');
 iprogram('Unix Systems','70');
 iprogram('Git','60');
-iprogram('CAD','50');
 iprogram('CSS','40');
-iprogram('UX Design','50');
+iprogram('UX Design','70');
 iprogram('Adobe CS6','50');
 ?>
 
@@ -211,7 +232,7 @@ iprogram('Adobe CS6','50');
 		<hr />
 		<ul>
 		<?php
-			project('TextReject.com','http://www.textreject.com','');
+			project('TextReject.com','http://www.textreject.com', 'https://github.com/textreject' );
 		?>
 		</ul>
 		<a class="pull-right btn btn-small btn-inverse" href="http://github.com/andhess">Github Profile <i class="icon-arrow-right icon-white"></i></a><br />
@@ -234,26 +255,22 @@ iprogram('Adobe CS6','50');
 	<?php
 	
 	extra('Awards','2010 Olin Business School - Lionsgate Films Case Competition Winner');
-	extra('Language','Familiar with Spanish and French');
+	extra('Language','Familiar with Spanish, some exposure to French');
 	
 	?>
 	</div>
 	
-<!--
 	<div class="span4">
 	<div class="well">
 		<h4>Selected Press</h4>
 		<hr />
 		<ul>
-			<li>St. Louis Business Journal: <a href="http://www.bizjournals.com/stlouis/blog/BizNext/2012/10/community-voices-philip-thomas-at.html?page=all">Philip Thomas at Startup Weekend </a></li>
-				<li>Fox 2 Now: <a href="http://philipithomas.com/2012/07/food-truck-stl-on-fox-2-news-in-the-morning/">Live Interview with Food Truck Site Founder Philip I. Thomas </a></li>
-				<li>Forbes: <a href="http://www.forbes.com/sites/kaipetainen/2011/11/11/washu-students-provide-teva-some-healthy-love/">WashU Students Provide Teva Some Healthy Love</a></li>
-			<li>St. Louis Business Journal: <a href="http://www.bizjournals.com/stlouis/blog/BizNext/2012/09/wutevc-starts-venture-capital-lecture.html">wute.vc starts venture capital lecture series</li>
+			<li>St. Louis Business Journal: <a href="http://www.bizjournals.com/stlouis/blog/BizNext/2012/11/wash-u-students-launch-text-reject.html">WashU Students Launch Text Reject </a></li>
+			<li>Fox 2 Now: <a href="http://fox2now.com/2012/10/31/text-reject/">Interview on Fox 2 News St. Louis for Text Reject </a></li>
 		</ul>
 		<a class="pull-right btn btn-small btn-inverse" href="http://philipithomas.com/press">View Full Press <i class="icon-arrow-right icon-white"></I></a><br />
 	</div>
 	</div>
--->
 
 	</div>
 
