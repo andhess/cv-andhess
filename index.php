@@ -184,7 +184,7 @@ position("Washington University in Saint Louis","Saint Louis, MO","Bachelor of S
             <div class="row">
 
       <div class="page-header">
-      <h2>Personal Analysis of Technical Skills</h2>
+      <h2>Personal Assessment of Technical Skills</h2>
       </div>
     </div> <!-- end row -->
 <div class="row">
@@ -215,9 +215,11 @@ iprogram('Matlab','65');
 <?php
 iprogram('JavaScript','75');
 iprogram('PHP','70');
+iprogram('MySQL', '60');
 iprogram('Java','60');
 iprogram('Objective-C','20');
 iprogram('Unix Systems','70');
+iprogram('Algorithms and Data Structures', '65');
 iprogram('Git','60');
 iprogram('CSS','40');
 iprogram('UX Design','70');
