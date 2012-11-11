@@ -270,7 +270,7 @@ iprogram('Adobe CS6','50');
 			<li>St. Louis Business Journal: <a href="http://www.bizjournals.com/stlouis/blog/BizNext/2012/11/wash-u-students-launch-text-reject.html">WashU Students Launch Text Reject </a></li>
 			<li>Fox 2 Now: <a href="http://fox2now.com/2012/10/31/text-reject/">Interview on Fox 2 News St. Louis for Text Reject </a></li>
 		</ul>
-		<a class="pull-right btn btn-small btn-inverse" href="http://philipithomas.com/press">View Full Press <i class="icon-arrow-right icon-white"></I></a><br />
+		<!--<a class="pull-right btn btn-small btn-inverse" href="http://philipithomas.com/press">View Full Press <i class="icon-arrow-right icon-white"></I></a><br /> -->
 	</div>
 	</div>
 
