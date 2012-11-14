@@ -78,8 +78,8 @@
     <div class="row">
 	<div class="span12">
 		<h3 style="text-align: center; text-style: italic">Curriculum Vitae for</h3>
-		
-      <h1 style="padding: 10px 0px; text-align: center; font-size: 60px">Andrew Hess</h1>
+
+<h1 style="padding: 10px 0px; text-align: center; font-size: 60px; line-height: 70px;">Andrew Clayton Hess</h1>	
 	<span class="" style="text-align: center;"> 
 		<address>
 		<a href="http://www.andrewhess.net" target="_blank">www.andrewhess.net</a><br />
