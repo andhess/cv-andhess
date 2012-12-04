@@ -114,7 +114,7 @@
       </div>
     </div> <!-- end row -->
 <?php
-position("Washington University in Saint Louis","Saint Louis, MO","Bachelor of Science in Systems Engineering</br>Minor in Computer Science","Expected 5/14",'
+position("Washington University in Saint Louis","Saint Louis, MO","Bachelor of Science in Systems Engineering, Second Major in Electrical Engineering</br>Minor in Computer Science","Expected 5/14",'
 <ul>
 <li><span style="font-weight: bold">Engineering:</span> Control Systems, Operations Research, Signals & Systems</li>
 <li><span style="font-weight: bold">Computer Science:</span> Computer Science I & II, Algorithms & Data Structures</li>
