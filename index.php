@@ -273,7 +273,6 @@ iprogram('Adobe CS6','50');
 		<h4>Selected Press</h4>
 		<hr />
 		<ul>
-			<li>
 			<li>Techli: <a href="http://techli.com/text-reject-SXSW">St. Louis-based Text Reject Chosen For SXSW Student Startup Madness Competition </a></li>
 			<li>St. Louis Business Journal: <a href="http://www.bizjournals.com/stlouis/blog/BizNext/2012/12/3-st-louis-student-startups-advance.html?ana=twt">3 St. Louis student startups advance in national competition </a></li>
 			<li>St. Louis Business Journal: <a href="http://www.bizjournals.com/stlouis/blog/BizNext/2012/11/wash-u-students-launch-text-reject.html">WashU Students Launch Text Reject </a></li>
@@ -291,7 +290,7 @@ iprogram('Adobe CS6','50');
 
       <footer style="padding-top: 20px;">
 	<hr />
-      <p style="text-align: center">&copy; Andrew Hess 2012</p>
+      <p style="text-align: center">&copy; Andrew Hess 2013</p>
       </footer>      
 
     </div> <!-- /container -->
