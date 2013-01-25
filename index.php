@@ -101,7 +101,7 @@
           </div> 
           <div class="row">
       
-      <div class="span12">Andrew Hess is a 3rd year B.S Candidate at Washington University in St. Louis studying systems engineering and computer science.  He is currently seeking a cooperative educational experience that focuses on mathematics and software.
+      <div class="span12">Andrew Hess is a 3rd year B.S Candidate at Washington University in St. Louis studying systems engineering, electrical engineering, and computer science.  He is currently seeking an intern experience relevant in those fields.
       </div> 
 
       </section>
@@ -114,10 +114,10 @@
       </div>
     </div> <!-- end row -->
 <?php
-position("Washington University in Saint Louis","Saint Louis, MO","Bachelor of Science in Systems Engineering, Second Major in Electrical Engineering</br>Minor in Computer Science","Expected 5/14",'
+position("Washington University in Saint Louis","Saint Louis, MO","Bachelor of Science in Systems Engineering and Electrical Engineering</br>Minor in Computer Science","Expected 12/13",'
 <ul>
-<li><span style="font-weight: bold">Engineering:</span> Control Systems, Operations Research, Signals & Systems</li>
-<li><span style="font-weight: bold">Computer Science:</span> Computer Science I & II, Algorithms & Data Structures</li>
+<li><span style="font-weight: bold">Engineering:</span> Control Systems, Operations Research, Signals & Systems, Communications Theory</li>
+<li><span style="font-weight: bold">Computer Science:</span> Computer Science I & II, Algorithms & Data Structures, Digital Logic</li>
 <li><span style="font-weight: bold">Mathematics:</span> Engineering Math, Discrete Mathematics</li>
 </ul>',"");
 ?>
@@ -142,10 +142,16 @@ position("Washington University in Saint Louis","Saint Louis, MO","Bachelor of S
 	<li>Developed in multiple languages including php, JavaScript, Objective-C, and Java.</li>
 	</ul>','https://www.expensify.com/');
 	
-	
-	position("TextReject.com","Saint Louis, MO","Co-Founder","10/12-Present",'
+	position("Washington University Department of Electrical and Systems Engineering","Saint Louis, MO","Undergraduate Research","1/13-present",'
+	<ul>
+	<li>Currently working on developing charging algorithms for electrical vehicles.</li>
+	<li>Research consists of devising algorithms, creating mathematical models, and runnning simulations.</li>
+	</ul>',"");
+
+	position("TextReject.com","Saint Louis, MO","Co-Founder","10/12-12/12",'
 	<ul>
 	<li>Designed, built, and launched a humorous php application that connects with Twilio for an automated text messaging service.</li>
+	<li>A semi-finalist in the 2013 South by Southwest Student Startup Madness competition.</li>
 	</ul>',"http://textreject.com/");
 	
 	
@@ -267,7 +273,11 @@ iprogram('Adobe CS6','50');
 		<h4>Selected Press</h4>
 		<hr />
 		<ul>
+			<li>
+			<li>Techli: <a href="http://techli.com/text-reject-SXSW">St. Louis-based Text Reject Chosen For SXSW Student Startup Madness Competition </a></li>
+			<li>St. Louis Business Journal: <a href="http://www.bizjournals.com/stlouis/blog/BizNext/2012/12/3-st-louis-student-startups-advance.html?ana=twt">3 St. Louis student startups advance in national competition </a></li>
 			<li>St. Louis Business Journal: <a href="http://www.bizjournals.com/stlouis/blog/BizNext/2012/11/wash-u-students-launch-text-reject.html">WashU Students Launch Text Reject </a></li>
+			<li>Student Life: <a href= "http://www.studlife.com/news/2012/11/15/you-are-unwanted-student-business-offers-humorous-text-rejections/">You are unwanted: Student business offers humorous text rejections </a></li>
 			<li>Fox 2 Now: <a href="http://fox2now.com/2012/10/31/text-reject/">Interview on Fox 2 News St. Louis for Text Reject </a></li>
 		</ul>
 		<!--<a class="pull-right btn btn-small btn-inverse" href="http://philipithomas.com/press">View Full Press <i class="icon-arrow-right icon-white"></I></a><br /> -->
