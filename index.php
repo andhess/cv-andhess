@@ -101,7 +101,7 @@
           </div> 
           <div class="row">
       
-      <div class="span12">Andrew Hess is a 3rd year B.S Candidate at Washington University in St. Louis studying systems engineering, electrical engineering, and computer science.  He is currently seeking an intern experience relevant in those fields.
+      <div class="span12">Andrew Hess is a 3rd year B.S Candidate at Washington University in St. Louis studying systems engineering, electrical engineering, and computer science.  Currently seeking an internship experience relevant in those fields.
       </div> 
 
       </section>
@@ -146,6 +146,7 @@ position("Washington University in Saint Louis","Saint Louis, MO","Bachelor of S
 	<ul>
 	<li>Currently working on developing charging algorithms for electrical vehicles.</li>
 	<li>Research consists of devising algorithms, creating mathematical models, and runnning simulations.</li>
+	<li>All models and simulations built in Python.</li>
 	</ul>',"");
 
 	position("TextReject.com","Saint Louis, MO","Co-Founder","10/12-12/12",'
@@ -194,15 +195,16 @@ position("Washington University in Saint Louis","Saint Louis, MO","Bachelor of S
       </div>
     </div> <!-- end row -->
 <div class="row">
-	<h3>Systems Engineering</h3>
+	<h3>Systems and Electrical Engineering</h3>
 	
 	<div class="span8">
 <?php
 iprogram('Control Engineering','75');
-iprogram('Signal Processing', '60');
+iprogram('Signal Processing', '65');
 iprogram('Operations Research', '80');
 iprogram('System Design', '60');
 iprogram('Matlab','65');
+iprogram('Mathematical Modeling', '75');
 ?>
 
 
@@ -223,6 +225,7 @@ iprogram('JavaScript','75');
 iprogram('PHP','70');
 iprogram('MySQL', '60');
 iprogram('Java','60');
+iprogram('Python', '70');
 iprogram('Objective-C','20');
 iprogram('Unix Systems','70');
 iprogram('Algorithms & Data Structures', '65');
