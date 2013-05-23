@@ -65,7 +65,7 @@
                 </div> 
                 <div class="row">
                     <div class="span12">
-                        <p>Andrew Hess is a 3rd year B.S Candidate at Washington University in St. Louis studying systems engineering, electrical engineering, and computer science.  Currently seeking an internship experience relevant in those fields.</p>
+                        <p>Andrew Hess is a 4th year B.S Candidate at Washington University in St. Louis studying systems engineering, electrical engineering, and computer science. He will be graduating a semester early in December, and is looking to begin a career in relevant fields.</p>
                 </div> 
             </section>
 
@@ -76,8 +76,8 @@
                     </div>
                 </div>
                 <script type="text/javascript">
-                    var blob = [ ['Engineering', ['Control Systems', 'Operations Research', 'Signals & Systems', 'Communications Theory'] ], ['Computer Science', ['Computer Science I & II', 'Algorithms & Data Structures', 'Digital Logic'] ] , [ 'Mathematics', ['Engineering Math' , 'Discrete Mathematics'] ] ];
-                    position('Washington University in Saint Louis' , 'Saint Louis, MO' , 'Bachelor of Science in Systems Engineering and Electrical Engineering', 'Expected 12/13' , blob, 'http://www.google.com', 1 );
+                    var blob = [ [ 'Majors', ['Systems Engineering', 'Electrical Engineering'] ], ['Minor',['Computer Science'] ], ['Engineering Courses', ['Control Systems', 'Operations Research', 'Signals & Systems', 'Communications Theory', 'Robotics Laboratory'] ], ['Computer Science Courses', ['Computer Science I & II', 'Algorithms & Data Structures', 'Digital Logic'] ] , [ 'Mathematics Courses', ['Engineering Math' , 'Discrete Mathematics'] ] ];
+                    position('Washington University in Saint Louis' , 'Saint Louis, MO' , 'Bachelor of Science', 'Expected 12/13' , blob, 'http://www.wustl.edu', 1 );
                 </script>
             </section>
             <section id="experience">
@@ -87,6 +87,9 @@
                     </div>
                 </div>
                 <script>
+                    var alt = ['Working with the software team to help further advance simulation software', 'Programming in C++ and implementing mathematical transformations'];
+                    position( 'Altair Engineering Inc.', 'Troy, MI', 'Engineering Intern', '6/13 - 8/13', alt, 'http://altair.com/', 0 );
+
                     var res = ['Worked on developing charging algorithms for electrical vehicles', 'Research consisted of devising algorithms, creating mathematical models, and runnning simulations', 'All models and simulations were built in Python'];
                     position('Washington University Department of Electrical and Systems Engineering', 'Saint Louis, MO', 'Undergraduate Research', '1/13 - 5/13', res, 'https://github.com/andhess/ChargeAlgorithms', 0 );
 
@@ -99,7 +102,7 @@
                     var wute = ['wute is a community of students interested in technology and entrepreneurship', 'Help coordinate meetups that feature a small, informal discussion with people from the tech industry', 'Past speakers include <a href="http://en.wikipedia.org/wiki/Alexis_Ohanian" target="_BLANK">Alexis Ohanian</a>, <a href="https://twitter.com/tristan" target="_BLANK">Tristan O\'Tierney</a>, <a href="http://www.samwen.com/" target="_BLANK">Sam Wen</a>', 'Partners with Washington University\'s <a href="http://engineering.wustl.edu/disc-comp.aspx" target="_BLANK">Discovery Competition</a>' ];
                     position('Washington University Tech Entrepreneurs (wute)', 'Saint Louis, MO', 'President', '5/11 - Present', wute, 'http://www.wute.org', 0 );
 
-                    var capscan = ['Developed an Android application to collect coupon codes from pictures using <abbr title="Optical Character Recognition">OCR</abbr> technology', 'Developed image processing algorithms to make it possible for <a href="http://code.google.com/p/tesseract-ocr/" target="_BLANK">Tesseract</a> to process the text in images', 'Project was discontinued and never released due to the difficulty involved with developing accurate and reliable OCR' ];
+                    var capscan = ['Developed an Android application to collect coupon codes from pictures using <a href="http://en.wikipedia.org/wiki/Optical_character_recognition" target="_BLANK">OCR</a> technology', 'Developed image processing algorithms to make it possible for <a href="http://code.google.com/p/tesseract-ocr/" target="_BLANK">Tesseract</a> to process the text in images', 'Project was discontinued and never released due to the difficulty involved with developing accurate and reliable OCR' ];
                     position( 'CapScan','Saint Louis, MO','Co-Founder','12/11-4/12', capscan, '', 0);
 
                     var pyc = ['Managed and coached a team of 25 junior sailors, ages 8 to 18' , 'Travelled weekly to local and regional events over a 12 week season'];
@@ -123,6 +126,19 @@
                             skillShow('Matlab','65');
                             skillShow('Mathematical Modeling', '75');
                         </script>
+                    </div>
+                    <div class="span4">
+                        <div class="well">
+                            <h4>Selected Projects</h4>
+                            <hr />
+                            <ul>
+                                <script>
+                                    project( 'Swing Up and Balancing Robot', 'https://vimeo.com/64962238', '');
+                                    project('Charging Algorithms','', 'https://github.com/andhess/ChargeAlgorithms' );
+                                </script>
+                            </ul>
+                            <a class="pull-right btn btn-small btn-inverse" href="http://github.com/andhess">Github Profile <i class="icon-arrow-right icon-white"></i></a><br />
+                        </div>
                     </div>
                 </div>
                 <div class="row">
@@ -151,6 +167,7 @@
                             <hr />
                             <ul>
                                 <script>
+                                    project( 'VHDL Traffic Light', '', 'https://github.com/andhess/traffic_light')
                                     project('TextReject.com','http://www.textreject.com', 'https://github.com/textreject' );
                                 </script>
                             </ul>
@@ -168,6 +185,7 @@
                 <div class="row">
                     <div class="span8">
                         <script>
+                            extra('Honors', 'Washington University Dean\'s List - Spring 2013');
                             extra('Awards','2010 Olin Business School - Lionsgate Films Case Competition Winner');
                             extra('Language','Familiar with Spanish, some exposure to French');
                         </script>
