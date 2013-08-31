@@ -31,6 +31,7 @@ function position( company , city , job, dates, blob, link, list ){
         if( list == 1 ){
             for( var i = 0 ; i <= blob.length - 1 ; i++ ){
                 output += '<li><span style="font-weight: bold">' + blob[i][0] + ': </span>';
+
                 var liSize = blob[i][1].length - 1;
 
                 for( var j = 0 ; j <= liSize ; j++ ){
@@ -76,8 +77,11 @@ function extra( title, blob ){
     output += '<div class="row" style="padding-top:30px"><div class="span3">';
     output += '<span class="pull-right hidden-phone"><strong>' + title + '</strong></span>';
     output += '<span class="visible-phone badge">' + title + '</span></div>';
-    output += '<div class="span5">' + blob + '</div></div>';
-
+    output += '<div class="span5">';
+    for( var i = 0 ; i <= blob.length - 1 ; i++ ){
+        output += blob[i];
+    }
+    output += '</div></div>'
     document.write( output );
     document.close();
 }
