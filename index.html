@@ -65,7 +65,7 @@
                 </div> 
                 <div class="row">
                     <div class="span12">
-                        <p>Andrew Hess is a senior at Washington University in St. Louis pursuing a Bachelor of Science in Systems Engineering and Electrical Engineering and a minor in Computer Science, graduating early this December. He is the president of the Washington University Tech Entrepreneurs and is vice president of the Society for Industrial and Applied Mathematics. He has spent the last two summers interning with OpenDNS and Expensify as a software engineer. He is interested in algorithmic programming, data analysis, and computational finance.</p>
+                        <p>Andrew Hess is a recent graduate of Washington University in St. Louis with a Bachelor of Science in Systems Engineering and Electrical Engineering, plus a minor in Computer Science. While attending university, he conducted research projects in quantitative finance and charging electric vehicles and served as the president of the Washington University Tech Entrepreneurs and vice president of the Society for Industrial and Applied Mathematics. Outside of school he has interned as a software engineer for OpenDNS and Expensify and served as an analyst for Cultivation Capital.</p>
                 </div> 
             </section>
 
@@ -76,8 +76,10 @@
                     </div>
                 </div>
                 <script type="text/javascript">
-                    var blob = [ [ 'Majors', ['Systems Engineering', 'Electrical Engineering'] ], ['Minor',['Computer Science'] ], ['Engineering Courses', ['Control Systems', 'Operations Research', 'Signals & Systems', 'Communications Theory', 'Robotics Laboratory'] ], ['Computer Science Courses', ['Computer Science I', 'Computer Science II', 'Algorithms & Data Structures', 'Digital Logic'] ] , [ 'Mathematics Courses', ['Engineering Math' , 'Discrete Mathematics', 'Matrix Algebra', 'Financial Mathematics'] ], ['GPA', ['3.43 overall', '3.78 last semester'] ] ];
-                    position('Washington University in Saint Louis' , 'Saint Louis, MO' , 'Bachelor of Science', 'Expected 12/13' , blob, 'http://www.wustl.edu', 1 );
+                    var blob = [
+                    [ 'Majors', ['Systems Engineering', 'Electrical Engineering'] ],['Minor',['Computer Science'] ],['Systmes Engineering Courses', ['Applied Operations Research', 'Theory of Operations Research', 'Robotics Laboratory'] ],['Electrical Engineering Courses', ['Signal Processing Laboratory', 'Signals and Systems', 'Control Systems', 'Communications Theory'] ],['Computer Science Courses', ['Algorithms & Data Structures', 'Digital Logic', 'Computer Science I', 'Computer Science II', ] ],[ 'Mathematics Courses', ['Discrete Mathematics', 'Financial Mathematics', 'Matrix Algebra', 'Probability and Statistics', 'Engineering Math', 'Differential Equations', 'Calculus I-III'] ],['GPA', ['3.4/4.0'] ] ];
+
+                    position('Washington University in Saint Louis' , 'Saint Louis, MO' , 'Bachelor of Science', 'Graduated 12/13' , blob, 'http://www.wustl.edu', 1 );
                 </script>
             </section>
             <section id="experience">
@@ -87,17 +89,19 @@
                     </div>
                 </div>
                 <script>
-                    var fin = ['Using historical data, binomial models, and a <a href="http://en.wikipedia.org/wiki/Breadth-first_search">BFS</a> algorithm to predict expected future performance and its distribution', 'Using Linear Programming to determine optimal portfolio selection and trading frequency based on desired return risk tolerance', 'Comparing portfolio performance to common baselines'];
-                    position( 'Washington University Department of Electrical and Systems Engineering', 'Saint Louis, MO', 'Senior Capstone: Linear Programming to develop Financial Trading Strategies', '8/13 - 12/13', fin, '', 0 );
-                    var cult = ['Cultivation Captial is an early stage venture capital firm in St. Louis that focuses on technology and health/life science developments', 'Providing due diligence on potential investments'];
+                    var fin = ['Took common signal processing and prediction filters from Systems Science and Electrical Engineering', 'Modified filters for use in quantitative finance and implemneted models in Python', 'Used implementations to make future predictions in simulations on historical data'];
+                    position( 'Washington University Department of Electrical and Systems Engineering', 'Saint Louis, MO', 'Senior Thesis: The Application of Systems Science and Electrical Engineering in Quantitative Finance', '8/13 - 12/13', fin, 'http://www.andhess.com/cv/assets/pdf/Duggan_Hess_Dec_2013.pdf', 0 );
+                    
+                    var cult = ['Cultivation Captial is a venture capital firm that focuses on early stage technology and life science developments in primarily the St. Louis area', 'Provided due diligence and consulting on potential investments'];
                     position( 'Cultivation Captial', 'Saint Louis, MO', 'Analyst', '8/13 - 12/13', cult, 'http://cultivationcapital.com/', 0 );
-                    var dns = ['OpenDNS allows people to securely use the Internet with confidence', 'Worked across multiple engineering teams in multiple languages','Won most creative project at internal hackathon for scheduling algorithm'];
+                    
+                    var dns = ['OpenDNS allows people to securely use the Internet with confidence', 'Worked with multiple engineering teams and was also able to shadow the security research team', 'Implemented features for front-end, backend, and core API in multiple languages','Won most creative project at engineering hackathon for an internal scheduling algorithm'];
                     position( 'OpenDNS', 'San Francisco, CA', 'Software Engineering Intern', '6/13 - 8/13', dns, 'http://www.opendns.com/', 0 );
                     
-                    var res = ['Worked on developing charging algorithms for electrical vehicles', 'Research consisted of devising algorithms, creating mathematical models, and runnning simulations', 'All models and simulations were built in Python'];
+                    var res = ['Worked on developing charging algorithms for electrical vehicles', 'Research consisted of devising algorithms, implementing algorithms, runnning simulations, creating mathematical models, and processing data', 'All models and simulations were built in Python and are open sourced on Github'];
                     position('Washington University Department of Electrical and Systems Engineering', 'Saint Louis, MO', 'Undergraduate Research: Charging Algorithms', '1/13 - 5/13', res, 'http://www.andhess.com/charging/', 0 );
 
-                    var tr = ['Designed, built, and launched a humorous php application that connects with Twilio for an automated text messaging service', 'Semi-finalist in the 2013 South by Southwest Student Startup Madness competition', 'Semi-finalist for a St. Louis Arch-Grant'];
+                    var tr = ['Designed, built, and launched a humorous php application that connects with Twilio for an automated text messaging service', 'Semi-finalist in the 2013 South by Southwest Student Startup Madness competition', 'Semi-finalist for a St. Louis Arch Grant'];
                     position( 'TextReject.com', 'Saint Louis, MO', 'Co-Founder', '10/12 - 12/12', tr, 'http://www.textreject.com', 0 );
 
                     var exp = ['Worked on various aspects of the Expensify product including website and mobile applications', 'Developed in multiple languages including php, JavaScript, Objective-C, and Java' ];
@@ -109,7 +113,7 @@
                     var siam = ['SIAM is a community of students interested in solving complex problems through intensive mathematical analysis'];
                     position('Society for Industrial and Applied Mathematics (SIAM)', 'Saint Louis, MO', 'Vice President', '8/13 - Present', siam, '', 0 );
 
-                    var capscan = ['Developed an Android application to collect coupon codes from pictures using <a href="http://en.wikipedia.org/wiki/Optical_character_recognition" target="_BLANK">OCR</a> technology', 'Developed image processing algorithms to make it possible for <a href="http://code.google.com/p/tesseract-ocr/" target="_BLANK">Tesseract</a> to process the text in images', 'Project was discontinued and never released due to the difficulty involved with developing accurate and reliable OCR' ];
+                    var capscan = ['Developed an Android application to collect coupon codes from pictures using <a href="http://en.wikipedia.org/wiki/Optical_character_recognition" target="_BLANK">OCR</a> technology', 'Developed image processing algorithms to make it possible for <a href="http://code.google.com/p/tesseract-ocr/" target="_BLANK">Tesseract</a> to process the text in images', 'Project was discontinued and never released due to the difficulty involved with developing an accurate and reliable OCR' ];
                     position( 'CapScan','Saint Louis, MO','Co-Founder','12/11-4/12', capscan, '', 0);
 
                     var pyc = ['Managed and coached a team of 25 junior sailors, ages 8 to 18' , 'Travelled weekly to local and regional events over a 12 week season'];
@@ -127,9 +131,9 @@
                     <div class="span8">
                         <script>             
                             skillShow('Control Engineering','75');
-                            skillShow('Signal Processing', '70');
+                            skillShow('Signal Processing', '80');
                             skillShow('Operations Research', '85');
-                            skillShow('System Design', '65');
+                            skillShow('System Design', '70');
                             skillShow('Mathematical Modeling', '80');
                         </script>
                     </div>
@@ -139,6 +143,7 @@
                             <hr />
                             <ul>
                                 <script>
+                                    project( 'The Application of Systems Science and Electrical Engineering Topics in Quantitative Finance', 'http://www.andhess.com/cv/assets/pdf/Duggan_Hess_Dec_2013.pdf' , 'https://github.com/andhess/financial-modeling-linear-programming');
                                     project( 'Swing Up and Balancing Robot', 'https://vimeo.com/64962238', '');
                                     project('Charging Algorithms','http://www.andhess.com/charging/', 'https://github.com/andhess/ChargeAlgorithms' );
                                 </script>
@@ -153,13 +158,14 @@
                 <div class="row">
                     <div class="span8">
                         <script>
-                            skillShow('Python', '90');
+                            skillShow('Python', '95');
                             skillShow('Unix', '75');
                             skillShow('Java','65');
                             skillShow('Algorithms & Data Structures', '65');
-                            skillShow('PHP','60');
-                            skillShow('MySQL', '70');
-                            skillShow('Matlab','70');
+                            skillShow('PHP','70');
+                            skillShow('JavaScript','75');
+                            skillShow('SQL', '70');
+                            skillShow('Matlab','75');
                             skillShow('Git','80');
                         </script>
                     </div>
@@ -169,6 +175,7 @@
                             <hr />
                             <ul>
                                 <script>
+                                    project( 'Project Euler', '', 'https://github.com/andhess/project-euler');
                                     project( 'VHDL Traffic Light', '', 'https://github.com/andhess/traffic_light')
                                     project('TextReject.com','http://www.textreject.com', 'https://github.com/textreject' );
                                 </script>
@@ -188,7 +195,7 @@
                     <div class="span8">
                         <script>
                             extra('Honors', ['Washington University Dean\'s List - Spring 2013']);
-                            extra('Awards', ['2010 Olin Business School - Lionsgate Films Case Competition Winner', 'OpenDNS Internal Summer 2013 Hackathon: Most Creative Project']);
+                            extra('Awards', ['OpenDNS Internal Summer 2013 Hackathon: Most Creative Project', '2010 Olin Business School - Lionsgate Films Case Competition Winner',]);
                             extra('Language', ['Familiar with Spanish, some exposure to French']);
                         </script>
                     </div>
